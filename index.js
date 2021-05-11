@@ -71,6 +71,6 @@ function superbowlWin(record){
     return record.find(s=> s.result ==="W").year
   }
   else {
-    return undefined
+    return undefined;
   }
 }
